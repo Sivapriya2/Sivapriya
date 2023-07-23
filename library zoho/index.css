@@ -1,0 +1,118 @@
+@charset "ISO-8859-1";
+.wrapper
+{
+	height: 660px;
+	width: 1350px;
+	/*background-color: red;*/
+}
+header
+{
+	height: 130px;
+	width: 1240px;
+	background-color: black;
+	padding: 10px;
+}
+section
+{
+	height: 550px;
+	width: 1361px;
+	background-color: grey;
+}
+footer
+{
+	height: 82px;
+	width: 1361px;
+	background-color: black;
+}
+.logo
+{
+	float :left;
+	padding-left: 20px;
+	font-size:10px;
+
+}
+.logo img 
+{
+	padding-left: 80px;
+	width:25%;
+}
+
+li a
+{
+	color: white;
+	text-decoration: none;
+}
+nav
+{
+	float: right;
+	word-spacing: 30px;
+	padding: 20px;
+}
+nav li 
+{
+	display: inline-block;
+	line-height: 80px;
+}
+
+section .sec_img
+{
+	height: 550px;
+	margin-top: 0px;
+	background-image: url('https://th.bing.com/th/id/R.43489b1f9917274b7f076aa5102d6c55?rik=QH2lvioA55%2f4DQ&riu=http%3a%2f%2fwww.pixelstalk.net%2fwp-content%2fuploads%2f2016%2f08%2f1920x1080-Library-Wallpaper.jpg&ehk=9gF03gmHF0nAEJsY0IziYI%2fZUrCi7MQ%2bwMs9PzeRY7Q%3d&risl=&pid=ImgRaw&r=0');
+}
+.box
+{
+	height: 300px;
+	width: 450px;
+	background-color: #030002;
+	margin: 50px auto;
+	color: white;
+}
+
+/*--------------------------------st_login-----------------------------*/
+
+.log_img
+{
+	height: 650px;
+	margin-top: 0px;
+    background-image: url('https://th.bing.com/th/id/R.43489b1f9917274b7f076aa5102d6c55?rik=QH2lvioA55%2f4DQ&riu=http%3a%2f%2fwww.pixelstalk.net%2fwp-content%2fuploads%2f2016%2f08%2f1920x1080-Library-Wallpaper.jpg&ehk=9gF03gmHF0nAEJsY0IziYI%2fZUrCi7MQ%2bwMs9PzeRY7Q%3d&risl=&pid=ImgRaw&r=0');
+}
+.box1
+{
+	height: 500px;
+	width: 300px;
+	background-color: black;
+	margin: -70px auto;
+	opacity: .7;
+	color: white;
+	
+}
+
+input
+{
+	height: 20px;
+	width: 70%;
+
+}
+form{
+	text-align:center;
+}
+
+/*------------------------------registration--------------------*/
+.reg_img
+{
+	height: 430px;
+	margin-top: 0px;
+	background-image: url("images/4.png");
+}
+.box2
+{
+	height: 489px;
+	width: 400px;
+	background-color: black;
+	margin: 10px auto;
+	opacity: .7;
+	color: white;
+	padding: 10px;
+}
+

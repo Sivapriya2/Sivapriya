@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Forgot Password</title>
+</head>
+<body>
+<java>
+@{
+newPassword = Request["newPassword"];
+confirmPassword = Request["confirmPassword"];
+token = Request["token"];
+if IsPost
+{
+    // input testing is ommitted here to save space
+    retunValue = ResetPassword(token, newPassword);
+}
+}
+</java>
+<h1>Change Password</h1>
+
+<form method="post" action="">
+<table><tr>
+<td>New Password</td>
+<td><input type="password" id="newPassword" name="newPassword" ></td></tr>
+<tr><td>Confirm Password</td>
+<td><input type="password" id="confirmPassword" name="confirmPassword"></td></tr>
+<tr><td>Password Token</td>
+<td><input type="text" id="token" name="token"></td></tr>
+</table>
+<p class="form-actions">
+<input type="submit" value="Change Password">
+</p>
+
+</form>
+</body>
+</html>

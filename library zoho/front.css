@@ -1,0 +1,65 @@
+@charset "ISO-8859-1";
+h1{
+	text-align:center;
+	margin-top:100px;
+	font-style:bold;
+	color:white;
+	font-size:45px;
+	
+}
+body{
+	background-image:url('https://www.singaporetravelhub.com/wp-content/uploads/2017/11/National-Library-of-Singapore-02.jpg');
+    background-size:cover;
+    width:100%;
+  
+    
+}
+h3{
+   
+	font-style:bold;
+	color:white;
+	
+}
+
+.menu a{
+	
+	color:white;
+	font-size:20px;
+	cursor:pointer;
+	letter-spacing:1.5px;
+	
+	
+}
+nav ul{
+	float:right;
+	
+}
+
+.p{
+	text-align:center;
+	color:white;
+	font-size:20px;
+	margin-top:20px;
+	margin-right:220px;
+}
+.submit input[type="button"]{
+	cursor:pointer;
+	font-size:20px;
+	text-align:center;
+	border:none;
+	background-color:light grey;
+	margin:0px 650px;
+	margin-top:-240px;
+}
+
+.nav{
+	width:100%;
+	display:flex;
+	align-items:center;
+	background-color:black;
+	height:80px;
+	line-height:80px;
+	margin:0;
+	padding-left:10px;
+	
+}

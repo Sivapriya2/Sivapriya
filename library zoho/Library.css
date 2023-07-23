@@ -1,0 +1,15 @@
+h3{
+	margin-top:150px;
+	text-align:center;
+}
+.sub input[type="submit"]{
+	cursor:pointer;
+	font-size:20px;
+	text-align:center;
+	background-color:light grey;
+	width:23%;
+	margin-left:500px;
+}
+body{
+	background-image:url('');
+}
