@@ -1,0 +1,247 @@
+*{
+    padding: 0%;
+    margin: 0;
+}
+
+.sub-container{
+    margin-top: 10px;
+    margin-left: 280px;
+    margin-right: 280px;
+    height:1900px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+     flex-direction: column;
+     padding-left: 25px;
+}
+
+form{
+    background-color: white;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 250;
+    padding-top: 18px;
+    text-align: left;
+    padding-left: 25px;
+    padding-bottom: 20px;
+}
+
+.box{
+    height: 250px;
+    width: auto;
+    border-radius: 10px;
+    border: 0.1px solid rgb(205, 201, 201);
+}
+
+.header{
+    width: auto;
+    height: 10px;
+    border-top-left-radius:  10px;
+    border-top-right-radius: 10px;
+    background-color: rgb(102, 29, 190);
+}
+.email{
+    display: flex;
+    padding-top: 10px;
+}
+.left{
+    display: flex;
+    font-size: 15px;
+    justify-content: space-evenly;
+}
+
+.right{
+    display: flex;
+    padding-left: 300px;
+}
+
+p{
+    padding-left: 25px;
+    color: rgb(94, 93, 93);
+}
+
+a{
+    text-decoration: none;
+}
+
+.box-1{
+     height: 180px;
+    width: auto;
+    border-radius: 10px;
+    border: 0.1px solid rgb(205, 201, 201);
+    text-align: left;
+    padding-top: 25px;
+    padding-left: 25px;
+}
+
+.box-1 label{
+    font-size: 15px;
+}
+
+.box-1 .radio{
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+}
+.box-1 .check{
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+}
+
+.indicate{
+    margin-bottom: 15px;
+}
+
+.box-2{
+    height: 80px;
+    width: auto;
+    border-radius: 10px;
+    border: 0.1px solid rgb(205, 201, 201);
+    text-align: left;
+    padding-top: 25px;
+    padding-left: 25px;
+}
+
+.text{
+        border: none;
+        border-bottom: 1px solid rgb(205, 201, 201);
+        background-color: transparent;
+        width: 250px;
+}
+.text:focus,.textpara:focus{
+    outline: none;
+}
+.textpara{
+    border: none;
+    border-bottom: 1px solid rgb(205, 201, 201);
+    background-color: transparent;
+    width: 480px;
+}
+
+.box-3{
+    height: 120px;
+    width: auto;
+    border-radius: 10px;
+    border: 0.1px solid rgb(205, 201, 201);
+    text-align: left;
+    padding-top: 25px;
+    padding-left: 25px;
+}
+
+.box-3 select{
+    width: 30%;
+    height: 50px;
+    border-color:rgb(205, 201, 201) ;
+}
+
+.box-3 select:focus{
+    outline: none;
+}
+
+span{
+    color: red;
+}
+
+.box-4{
+    height: 120px;
+    width: auto;
+    border-radius: 10px;
+    border: 0.1px solid rgb(205, 201, 201);
+    text-align: left;
+    padding-top: 25px;
+    padding-left: 25px;
+}
+
+.num{
+    display: flex;
+    padding-left: 150px;
+    padding-right: 150px;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.best {
+    display: flex;
+    padding-left: 50px;
+    padding-right: 50px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.multi-choice{
+    height: 200px;
+    width: auto;
+    border-radius: 10px;
+    border: 0.1px solid rgb(205, 201, 201);
+    text-align: left;
+    padding-top: 25px;
+    padding-left: 25px;
+}
+
+.column{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      padding-left: 170px;
+      padding-right: 70px;
+}
+
+.row-set{
+    display: flex;
+    padding-left: 10px;
+    padding-right: 100px;
+    flex-direction: row;
+    justify-content: space-between; 
+
+}
+
+.tick{
+    height: 200px;
+    width: auto;
+    border-radius: 10px;
+    border: 0.1px solid rgb(205, 201, 201);
+    text-align: left;
+    padding-top: 25px;
+    padding-left: 25px;
+}
+
+.submit{
+    width: 90px;
+    height: 40px;
+    background-color: rgb(102, 29, 190);
+    color: white;
+    border: 3px solid white;
+    border-radius: 10px;
+    font-size: 14px;
+    align-items: center;
+}
+
+.last{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.content{
+    font-size: 13px;
+}
+.never{
+    text-align: left;
+    padding-left: 305px;
+}
+
+.footer a{
+    font-size: 22px;
+    color: rgb(99, 97, 97);
+}
+
+.footer span{
+    color: rgb(75, 74, 74);
+}
+
+a , button,img{
+    cursor: pointer;
+}
